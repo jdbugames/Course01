@@ -477,8 +477,8 @@ GameObject:
   - component: {fileID: 114554121772638828}
   - component: {fileID: 114983912259360888}
   - component: {fileID: 114312149114101432}
-  - component: {fileID: 114945323428866398}
-  - component: {fileID: 114655587133171372}
+  - component: {fileID: 114013656541763086}
+  - component: {fileID: 114727518865594094}
   m_Layer: 0
   m_Name: Car
   m_TagString: Player
@@ -2029,6 +2029,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114013656541763086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868162633135668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
 --- !u!114 &114017225843990094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2107,7 +2121,7 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 114945323428866398}
+  - {fileID: 114013656541763086}
   viewIdField: 0
   InstantiationId: 1
   isRuntimeInstantiated: 0
@@ -2187,17 +2201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96468c245ae8e0d4f8f1c7a7b8b0542e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114655587133171372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868162633135668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f08ae3ccb84c99e498f5e4208da56f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114723053510817932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2211,6 +2214,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 0}
+--- !u!114 &114727518865594094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868162633135668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb7ed514cda75f47a6627e5b2f3bb49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tecla: 102
+  objetoAInstanciar: {fileID: 1674849018655298, guid: 86a6f38cf9254e54db19ba06d0987084,
+    type: 2}
 --- !u!114 &114877157491066410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2224,17 +2241,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 0}
---- !u!114 &114945323428866398
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868162633135668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fe0ebde0dda1154090fa4004522e054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114983912259360888
 MonoBehaviour:
   m_ObjectHideFlags: 1

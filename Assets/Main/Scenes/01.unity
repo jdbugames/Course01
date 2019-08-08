@@ -1681,12 +1681,20 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114212591090110372, guid: 86a6f38cf9254e54db19ba06d0987084,
+    - target: {fileID: 0}
+      propertyPath: viewIdField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: InstantiationId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114161047544302274, guid: 86a6f38cf9254e54db19ba06d0987084,
         type: 2}
       propertyPath: viewIdField
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114212591090110372, guid: 86a6f38cf9254e54db19ba06d0987084,
+    - target: {fileID: 114161047544302274, guid: 86a6f38cf9254e54db19ba06d0987084,
         type: 2}
       propertyPath: InstantiationId
       value: 1
