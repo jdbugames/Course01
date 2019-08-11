@@ -905,9 +905,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 601014979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8819299fd76507468e4b7145f5eb40f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4e7389c13d3cd418285572a3d296e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabPool: cube
 --- !u!224 &647167904
 RectTransform:
   m_ObjectHideFlags: 0

@@ -39,7 +39,7 @@ public class InstanceManualMethod1 : MonoBehaviour
     {
         if(!collision.gameObject.CompareTag("Player") && collision.gameObject.GetComponent<PhotonView>() != null)
         {
-            PhotonNetwork.Destroy(collision.gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }
